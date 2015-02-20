@@ -135,6 +135,19 @@ button.sign-up {
   background-size: 100% 100%;
 }
 h4{
-  color: white;
+  color: #fff;
+  letter-spacing: 0.1em;
+  text-align: center;
+  font-size: 2em;
   font-weight: bold;
+  font-family: "Helvetica Neue", sans-serif;
+  margin-top: 20%; }
+}
+
+.uberx-container{
+  background: url("../img/uberx.png") no-repeat;
+  min-height: 650px;
+  height: 100%;
+  width: 100%;
+  background-size: 100% 100%; }
 }
