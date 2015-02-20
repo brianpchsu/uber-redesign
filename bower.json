@@ -1,0 +1,21 @@
+{
+  "name": "uber",
+  "version": "1",
+  "homepage": "https://github.com/wcwung/uber-redesign",
+  "authors": [
+    "William Wung <williamcwung@gmail.com>"
+  ],
+  "main": "assets/css",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.2"
+  }
+}
