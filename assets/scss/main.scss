@@ -1,1 +1,16 @@
-egg
+/* Main Styles for Uber*/
+body {
+	font-family: "Open Sans", sans-serif !important;
+}
+
+.top-bar {
+	width: 100%;
+	height: 45px;
+	position: fixed;
+
+	background: #000;
+	color: #fff;
+
+	text-align: center;
+	text-transform: uppercase;
+}
