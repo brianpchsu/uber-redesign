@@ -3,14 +3,55 @@ body {
 	font-family: "Open Sans", sans-serif !important;
 }
 
+// Driver CTA
+button.cta-btn {
+	background: #1fbad6;
+	color: #fff;
+	text-transform: uppercase;
+	border: none;
+	
+	padding: 5px 14px;
+	margin-left: -300px;
+	font-size: 12px;
+	letter-spacing: 0.08em;
+
+}
+
 .top-bar {
 	width: 100%;
-	height: 45px;
-	position: fixed;
+	height: 60px;
 
 	background: #000;
 	color: #fff;
 
 	text-align: center;
 	text-transform: uppercase;
+	letter-spacing: 0.08em;
+
+	.driver-cta {
+		margin-top: 15px;
+	}
+
+	& > span {
+		margin-top: 5px;
+	}
+}
+
+.top-bar-car-display {
+	background: url('https://d1a3f4spazzrp4.cloudfront.net/web-fresh/global/car-lineup-small@2x.png') no-repeat left top;
+	width: 170px;
+	height: 52px;
+	background-size: 170px 52px;
+	position: absolute;
+	left: 250px;
+}
+
+
+.hero-container {
+	background: url('../img/nyc.jpg') no-repeat;
+	width: 100%;
+	min-height: 650px;
+	height: 100%;
+	background-size: 100% 100%;
+
 }
